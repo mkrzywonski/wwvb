@@ -1,5 +1,5 @@
 # My WWVB based NTP server
-GPS is the de-facto standard for NTP reference clocks. Inexpensive GPS modules can easily be added to a Raspberry Pi in order to build an accurate reference clock for NTP. I have been wanting to do something a bit different and utilize an older technology to obtain accurate timing for an NTP server. I am going to use WWVB as a time source for an NTP reference clock. No, it's not as accurate as GPS. No, it's nto practical. It's just for fun. And it turns out not to be as straighforward as I first imagined.
+GPS is the de-facto standard for NTP reference clocks. Inexpensive GPS modules can easily be added to a Raspberry Pi in order to build an accurate reference clock for NTP. I have been wanting to do something a bit different and utilize an older technology to obtain accurate timing for an NTP server. I am going to use WWVB as a time source for an NTP reference clock. No, it's not as accurate as GPS. No, it's not practical. It's just for fun. And it turns out not to be as straighforward as I first imagined.
 
 # WWVB
 If you are not familiar with WWVB, it is an AM radio signal broadcast out of Fort Collins, Colorado, and is operated by the National Institute of Standards and Technology (NIST). See: https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwvb
