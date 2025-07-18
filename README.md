@@ -4,7 +4,7 @@ GPS is the de-facto standard for NTP reference clocks. Inexpensive GPS modules c
 # WWVB
 If you are not familiar with WWVB, it is an AM radio signal broadcast out of Fort Collins, Colorado, and is operated by the National Institute of Standards and Technology (NIST). See: https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwvb
 
-WWVB is commonly used in inexpensive radio-controlled clocks in the United States. The clock includes a small ferrite rod antenna and a chip to demodulate the AM signal and automatically set the time. I have owned a few of these over the years, and they work pretty well if you place them in a location that gets a good signal from the WWVB broadcast. In my experience, proper placement and orientation can be a fiddly process. These clocks typically attempt readio reception at night when the amount of RF interference is lowest and update the local timing circuit. They are not typically designed for continuous reception like I want in a time server.
+WWVB is commonly used in inexpensive radio-controlled clocks in the United States. The clock includes a small ferrite rod antenna and a chip to demodulate the AM signal and automatically set the time. I have owned a few of these over the years, and they work pretty well if you place them in a location that gets a good signal from the WWVB broadcast. In my experience, proper placement and orientation can be a fiddly process. These clocks typically attempt readio reception at night when the amount of RF interference is lowest and update their time once per day. They are not typically designed for continuous reception like I want in a time server.
 
 # WWVB Modulation
 ### Amplitude modulation
